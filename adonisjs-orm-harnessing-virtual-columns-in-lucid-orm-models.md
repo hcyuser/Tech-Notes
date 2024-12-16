@@ -56,5 +56,5 @@ static async myComputed(model: Model) {
 ```
 
 ## Reference
-https://lucid.adonisjs.com/docs/serializing-models#computed-properties
-https://lucid.adonisjs.com/docs/model-hooks#available-hooks
+- https://lucid.adonisjs.com/docs/serializing-models#computed-properties
+- https://lucid.adonisjs.com/docs/model-hooks#available-hooks

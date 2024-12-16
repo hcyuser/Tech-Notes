@@ -32,6 +32,7 @@ Create an internal column to hold the computed value. This avoids direct relianc
 ```
 // Temporary internal column
 private internalTemp: string | null = null;
+
 // Output virtual column
 @computed()
 get virtualColumn(): string | null {
@@ -48,10 +49,12 @@ Use AdonisJS lifecycle hooks to invoke the computation logic for the virtual col
 static async myComputed(model: Model) {
   // Write SQL query to compute the value
   const result = await Database.rawQuery('SELECT ...');
+
   // Assign the computed result to the internal temporary column
   model.internalTemp = result;
 }
 ```
+
 ## Reference
 https://lucid.adonisjs.com/docs/serializing-models#computed-properties
 https://lucid.adonisjs.com/docs/model-hooks#available-hooks

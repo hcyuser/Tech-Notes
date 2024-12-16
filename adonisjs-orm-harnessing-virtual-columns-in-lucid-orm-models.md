@@ -6,10 +6,11 @@ AdonisJS ORM: Harnessing Virtual Columns in Lucid ORM Models
 In AdonisJS, leveraging computed columns in Lucid ORM models can be a powerful feature. One such example is the `myComputed` computed column. However, when a sibling relationship (e.g., `HasMany`) is used within the `myComputed` function, the computed result may become inaccurate or inconsistent. This article explores a refined approach to computed columns to reduce asynchronous data-loading dependencies.
 
 ## Problem Overview
-Consider the following example Lucid ORM Model where the computed column `myComputed` references the childs relationship defined using HasMany:
+Consider the following example Lucid ORM Model where the computed column `myComputed` references the childs relationship defined using `HasMany`:
 ```
 @hasMany(() => Child)
 childs!: HasMany<typeof Child>
+
 @computed()
 get myComputed(): string | null {
   return this.childs;

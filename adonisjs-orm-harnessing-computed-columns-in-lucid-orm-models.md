@@ -1,7 +1,7 @@
-AdonisJS ORM: Harnessing Virtual Columns in Lucid ORM Models
+AdonisJS ORM: Harnessing Computed Columns in Lucid ORM Models
 ===
 
-![image](resources/adonisjs-orm-harnessing-virtual-columns-in-lucid-orm-models.png)
+![image](resources/adonisjs-orm-harnessing-computed-columns-in-lucid-orm-models.png)
 
 In AdonisJS, leveraging computed columns in Lucid ORM models can be a powerful feature. One such example is the `myComputed` computed column. However, when a sibling relationship (e.g., `HasMany`) is used within the `myComputed` function, the computed result may become inaccurate or inconsistent. This article explores a refined approach to computed columns to reduce asynchronous data-loading dependencies.
 
@@ -33,14 +33,14 @@ Create an internal column to hold the computed value. This avoids direct relianc
 // Temporary internal column
 private internalTemp: string | null = null;
 
-// Output virtual column
+// Output computed column
 @computed()
-get virtualColumn(): string | null {
+get outputColumn(): string | null {
   return this.internalTemp;
 }
 ```
-### Step 2: Compute the Virtual Column in Lifecycle Hooks
-Use AdonisJS lifecycle hooks to invoke the computation logic for the virtual column at appropriate stages.
+### Step 2: Compute the Computed Column in Lifecycle Hooks
+Use AdonisJS lifecycle hooks to invoke the computation logic for the internal column at appropriate stages.
 ```
 @afterFind()
 @afterSave()

@@ -3,7 +3,7 @@
 ![image](resources/ai-dev-cowork-overview.png)
 ![image](resources/ai-dev-cowork-comparison.svg)
 
-在公司的內網機上開發系統，最大的限制就是「網路管制」——很多外部資源和雲端服務都碰不到。但這不代表 AI 輔助開發就派不上用場。摸索一段時間後，我整理出一套「雙軌」工作流：GitHub Copilot Desktop (agent-driven development) 負責從 0 到 1，Visual Studio (chat-driven development) 負責從 1 到 100，分工清楚，各司其職。
+在公司的內網機上開發系統，最大的限制就是「網路管制」——很多外部資源和雲端服務都碰不到。但這不代表 AI 輔助開發就派不上用場，內網機上可以使用微軟的相關服務。摸索一段時間後，我整理出一套「雙軌」工作流：GitHub Copilot Desktop (agent-driven development) 負責從 0 到 1，Visual Studio (chat-driven development) 負責從 1 到 100，分工清楚，各司其職。
 
 ## GitHub Copilot Desktop (agent-driven development)：從 0 到 1 的專案啟動
 

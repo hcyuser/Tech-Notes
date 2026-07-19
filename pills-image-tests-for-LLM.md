@@ -48,6 +48,21 @@ GPT-5.6 Sol 只檢視了一次圖片，便直接回答：
 
 多算了 3 顆。合理推測是把部分「已壓破但外形仍近似橢圓的空泡殼」誤判成完整藥粒——這正是視覺語言模型（VLM）著名的弱點：**計數（counting）**。
 
+### Gemini 3.1 Pro：答對（8 顆）
+
+Gemini 3.1 Pro 只檢視了一次圖片，便直接回答：
+
+Based on the image, there are 8 pills left in the blister pack.
+
+Here is the breakdown:
+- 3 pills in the left column
+- 3 pills in the middle column
+- 2 pills in the bottom
+
+![image](resources/2026-07-19/Gemini-3.1-Pro-5-2026-07-19-example.png)
+
+Gemini 3.1 Pro 透過 Visual Tokenization, Pattern Recognition, Spatial Reasoning 在多模態模型直接計算藥片數量
+
 ## 目前 AI 模型遇到的瓶頸
 
 這個實驗恰好展示了多模態 LLM 在計數任務上的幾個結構性問題：

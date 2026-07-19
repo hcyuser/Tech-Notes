@@ -1,8 +1,8 @@
 用藥片影像測試 LLM：從一次「數藥片」實驗看多模態模型的極限
 ===
 
-![image](resources/2026-07-19/pills-image-tests-for-LLM-overview-1.png)
-![image](resources/2026-07-19/pills-image-tests-for-LLM-overview-2.png)
+![image](resources/2026-07-19/pills-image-tests-for-LLM-overview-1.jpg)
+![image](resources/2026-07-19/pills-image-tests-for-LLM-overview-2.jpg)
 
 ## 為什麼「計算藥片影像」對醫療很重要？
 

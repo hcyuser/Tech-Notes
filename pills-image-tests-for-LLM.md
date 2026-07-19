@@ -5,7 +5,6 @@ tags: ["LLM", "Multimodal", "Vision AI", "Agentic Workflow"]
 ---
 
 # 用藥片影像測試 LLM：從一次「數藥片」實驗看多模態模型的極限
-===
 
 ![image](resources/2026-07-19/pills-image-tests-for-LLM-overview-1.jpg)
 ![image](resources/2026-07-19/pills-image-tests-for-LLM-overview-2.jpg)

@@ -5,7 +5,6 @@ tags: ["ArgoCD", "Kubernetes", "Slack", "Notification", "DevOps"]
 ---
 
 # 如何在 ArgoCD 在 Project Level 設定 Slack Notification?
-===
 
 ![image](resources/argocd-project-level-slack-notification.png)
 

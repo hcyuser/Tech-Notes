@@ -5,7 +5,6 @@ tags: ["AdonisJS", "Lucid ORM", "Database", "NodeJS"]
 ---
 
 # AdonisJS ORM: Harnessing Computed Columns in Lucid ORM Models
-===
 
 ![image](resources/adonisjs-orm-harnessing-computed-columns-in-lucid-orm-models.png)
 

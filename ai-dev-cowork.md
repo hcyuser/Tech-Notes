@@ -1,3 +1,9 @@
+---
+title: "在網路管制的內網機上做 AI 協作開發：我的雙軌工作流心得"
+date: 2026-07-15
+tags: ["AI", "Workflow", "Guide", "Copilot", "VSCode"]
+---
+
 # 在網路管制的內網機上做 AI 協作開發：我的雙軌工作流心得
 
 ![image](resources/ai-dev-cowork-overview.jpg)

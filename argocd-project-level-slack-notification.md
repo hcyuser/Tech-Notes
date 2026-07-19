@@ -1,3 +1,9 @@
+---
+title: "如何在 ArgoCD 在 Project Level 設定 Slack Notification?"
+date: 2024-10-25
+tags: ["ArgoCD", "Kubernetes", "Slack", "Notification", "DevOps"]
+---
+
 # 如何在 ArgoCD 在 Project Level 設定 Slack Notification?
 ===
 

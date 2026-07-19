@@ -1,3 +1,9 @@
+---
+title: "AdonisJS ORM: Harnessing Computed Columns in Lucid ORM Models"
+date: 2024-12-16
+tags: ["AdonisJS", "Lucid ORM", "Database", "NodeJS"]
+---
+
 # AdonisJS ORM: Harnessing Computed Columns in Lucid ORM Models
 ===
 

@@ -6,6 +6,8 @@ tags: ["GitHub Actions", "NTU Mail", "Python", "Docker", "Email Forwarder"]
 
 # 如何自動轉寄 NTU Mail？使用 GitHub Actions + Python 打造無伺服器郵件轉寄方案
 
+![image](resources/general-mail-forwarder.jpg)
+
 一般的電子郵件服務（如 Gmail、Outlook）多數都提供方便的「自動轉寄（Auto Forwarding）」功能，可以輕鬆把收到的郵件同步轉寄到其他信箱。然而，**國立臺灣大學的郵件系統（NTU Mail）並未提供自動轉寄信件的功能。**
 
 雖然常見的替代方案是透過個人 Gmail 設定代收／代發 `@ntu.edu.tw` 信件，但我並不想要設定 Gmail 代收信件，也不想登入多個不同信箱去檢查郵件。我過去處理多個信箱的習慣一直都是透過「轉寄信件」將所有信件集中到一個地方統一管理。

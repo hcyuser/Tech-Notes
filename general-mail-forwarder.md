@@ -119,7 +119,7 @@ curl -X POST \
 
 ## 結語
 
-**General Mail Forwarder** 解決了 NTU Mail 沒有自動轉寄、代收又延遲嚴重的痛點。透過 GitHub Actions 與 Docker 容器化技術，不需要花費一分錢即可建立穩定又安全的郵件轉發機制。
+**General Mail Forwarder** 解決了 NTU Mail 沒有自動轉寄的困擾。透過 GitHub Actions 與 Docker 容器化技術，不需要花費一分錢即可建立穩定又安全的郵件轉發機制。
 
 如果有任何問題或想提交功能改進，歡迎至 GitHub 提交 Issue 或 PR！
 👉 **GitHub 專案網址**：[https://github.com/hcyuser/general-mail-forwarder](https://github.com/hcyuser/general-mail-forwarder)

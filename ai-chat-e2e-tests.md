@@ -12,7 +12,7 @@ tags: ["VSCode", "AI Chat", "E2E Testing", "Browser Automation", "QA", "DevOps",
 
 本文將以 **Yahoo 台灣首頁功能巡檢** 為例，示範如何在 VS Code 內透過 AI Chat 完成一套完整的簡易自動化 E2E 測試。
 
-![image](/resources/2026-07-26/ai-chat-e2e-tests-overview.jpg)
+![image](resources/2026-07-26/ai-chat-e2e-tests-overview.jpg)
 
 ---
 

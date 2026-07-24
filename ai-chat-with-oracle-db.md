@@ -93,3 +93,7 @@ tags: ["Oracle", "VSCode", "AI Chat", "MCP", "SQL Developer", "Database", "Secur
 
 Oracle 官方發行的 `Oracle SQL Developer for VSCode` 擴充套件**本身就是一個強大的 MCP Server**，讓 AI Agent 能夠直接與 Oracle 資料庫無縫對話，在同一個編輯器內完成開發、查詢與除錯，大幅提升資料庫開發與營運效率！
 
+## Reference
+- https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer
+
+

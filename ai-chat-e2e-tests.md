@@ -12,13 +12,15 @@ tags: ["VSCode", "AI Chat", "E2E Testing", "Browser Automation", "QA", "DevOps",
 
 本文將以 **Yahoo 台灣首頁功能巡檢** 為例，示範如何在 VS Code 內透過 AI Chat 完成一套完整的簡易自動化 E2E 測試。
 
+![image](/resources/2026-07-26/ai-chat-e2e-tests-overview.jpg)
+
 ---
 
 ## 1. 測試目標與情境規劃
 
 本次測試旨在驗證 Portal 網站的核心導覽功能與搜尋流程是否正常運作。
 
-![image](resources/2026-07-25/ai-chat-e2e-tests-initial.png)
+![image](resources/2026-07-26/ai-chat-e2e-tests-initial.png)
 
 - **測試網址**：`https://tw.yahoo.com/?p=us`
 - **測試目標**：確認 Yahoo 台灣首頁可正常開啟、搜尋關鍵字、瀏覽焦點新聞、切換主要頻道（新聞、股市），並檢查頁面是否有明顯的載入錯誤或死連結。
@@ -34,7 +36,7 @@ tags: ["VSCode", "AI Chat", "E2E Testing", "Browser Automation", "QA", "DevOps",
 
 ## 2. 在 VS Code 內由 AI Chat 自動執行測試流程
 
-![image](resources/2026-07-25/ai-chat-e2e-tests-process.png)
+![image](resources/2026-07-26/ai-chat-e2e-tests-process.png)
 
 在 VS Code 側邊欄的 AI Chat 視窗中，只需將上述測試需求發送給 AI Agent，AI 便會掛載瀏覽器自動化工具並逐步進行操作與狀態檢查：
 

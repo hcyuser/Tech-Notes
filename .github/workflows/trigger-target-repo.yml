@@ -16,5 +16,4 @@ jobs:
         run: |
           gh workflow run deploy.yml \
             --repo hcyuser/Website-Pages \
-            --ref main \
-            -f message="Triggered from Source Repo"
+            --ref master

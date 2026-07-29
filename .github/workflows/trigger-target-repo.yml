@@ -1,0 +1,20 @@
+name: Trigger Target Repo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Workflow in Target Repo
+        env:
+          GH_TOKEN: ${{ secrets.CROSS_REPO_TOKEN }}
+        run: |
+          gh workflow run deploy.yml \
+            --repo hcyuser/Website-Pages \
+            --ref main \
+            -f message="Triggered from Source Repo"

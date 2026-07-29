@@ -1,10 +1,10 @@
 ---
-title: "實戰紀錄：用 Cloudflare Workers 打造 Severless RAG API"
+title: "實戰紀錄：用 Cloudflare Workers 免費打造 Severless RAG API"
 date: 2026-08-01
 tags: ["Cloudflare", "Cloudflare Workers", "RAG", "AI", "TypeScript", "SSE", "CORS"]
 ---
 
-# 實戰紀錄：用 Cloudflare Workers 打造 Severless RAG API
+# 實戰紀錄：用 Cloudflare Workers 免費打造 Severless RAG API
 
 ![image](resources/2026-08-01/cloudflare-rag-overview.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: "瀏覽器自動化工作流程容器化：部署、故障處理與水平擴展"
 date: 2026-10-16
-tags: ["Docker", "Kubernetes", "Browser Automation", "DevOps", "Scaling"]
+tags: ["BUA", "CUA", "Docker", "Kubernetes", "Browser Automation", "DevOps", "Scaling"]
 ---
 
 # 瀏覽器自動化工作流程容器化：部署、故障處理與水平擴展
